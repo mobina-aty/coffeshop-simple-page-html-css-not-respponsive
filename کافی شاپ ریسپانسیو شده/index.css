@@ -1,0 +1,360 @@
+ *{
+    margin: 0;
+    padding: 0;
+    
+ }
+ .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+ }
+@font-face {
+    font-family: vazir;
+    src: url( vazir.ttf);
+}
+body{
+    font-family: vazir;
+}
+.headerall{
+   background-image: url(./bakcground-header.jpg);
+   background-size: cover;
+   height:  700px;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   
+  
+}
+ 
+.headerall .nav{
+    background-color: #00000079;
+    width: 100%;
+    height: 100px;
+    position: relative;
+  
+}
+.nav li{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    padding-right: 3rem ;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+   li:hover{
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  margin-top: 2.5rem ;
+  transition: 1s;
+ 
+  }
+ul{
+    margin-right: 50px;
+
+}
+.nav img{
+  display: flex;
+  position: absolute;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+
+
+}
+.headerall h1{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    width: 900px;
+    font-size: 2.5rem;
+    color: #ffffff;
+     
+}
+.headerall p{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    font-weight:600;
+    right: 380px;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.startstory img{
+    width:  600px;
+    height: 400px; 
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
+.startstory  p,h1{
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+     width: 500px;
+   
+     
+}
+ .friendly{
+    background-image: url(./backtwo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+    margin-top: 200px;
+ }
+ .texts  {
+     text-align: center;
+    justify-content: center;
+   padding-top: 200px;
+   padding-right: 400px;
+   margin-bottom: 100px;
+   font-size: 1.5rem;
+    color: white;
+    width: 700px;
+    
+ }
+ 
+ .menu img{
+    width: 300px;
+    height: 280px;
+    margin-top: 100px;
+    
+ }
+ #for{
+ position: absolute;
+ top:120rem ;
+ left: 10rem;
+ }
+ #three{
+    position: absolute;
+    top: 120rem;
+    left: 30rem;
+ }
+  #two{
+    position: absolute;
+    top: 140rem;
+    left: 10rem;
+  }
+  #one{
+    position: absolute;
+    top: 140rem;
+    left: 30rem;
+  }
+ 
+  .menu h1 , p , h2{
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+  
+    
+  }
+  .menu h2{
+    margin-top: 40px;
+    margin-right: 300px;
+    font-weight: 500;
+    width: 180px;
+    border-bottom: brown 2px solid;
+  }
+  .menu h2:hover{
+    transition: .5s;
+    cursor: pointer;
+     border-bottom: rgb(255, 0, 0) 5px solid; 
+  }
+  .hot{
+    background-image: url(./1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+ }
+ .texts2  {
+     text-align: center;
+    justify-content: center;
+   padding-top: 200px;
+   padding-right: 450px;
+   margin-bottom: 100px;
+   font-size: 2rem;
+    color: white;
+    width: 800px;
+    
+ }
+ .texts2{
+    background-color: rgba(0, 0, 0, 0.486);
+    background-size: cover;
+    height:400px;
+    width: 1069px;
+ }
+/* delight */
+
+#delight{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+
+#delight .delight{
+    width: 100%;
+    height: 100%;
+}
+
+#delight .delight .delight-description{
+    width: 49%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+#delight .delight .delight-description h2{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-right: 100px;
+    margin-top: 80px;
+
+}
+#delight .delight .delight-description p{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+ .delight-image{
+    width: 49%;
+   position: absolute;
+    float:  left;
+    left: 100px;
+    top: 100px;
+     margin-right: 50px;
+    text-align: left;
+     
+}
+ 
+#delight .delight .delight-image img{
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+    
+}
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(20, 20, 20);
+    margin-top: 100px;
+    position: relative;
+}
+
+footer .footer{
+    width: 100%;
+    height: 100%;
+    padding: 40px 0 0 0;
+}
+
+footer .footer .About{
+    width: 100%;
+    text-align: center;
+    margin: 80px auto;
+}
+
+
+footer .footer .About h2{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-right: 450px;
+}
+
+footer .footer .About p{
+    color: #fff;
+    font-size: 18px;
+    width: 500px;
+    line-height: 2;
+    margin: 0 auto
+}
+
+footer .footer .contact-us{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer .contact-us .newslatter{
+    width: 30%;
+}
+
+footer .footer .contact-us .newslatter h2{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer .footer .contact-us .newslatter input{
+    width: 60%;
+    padding: 10px;
+}
+
+footer .footer .contact-us .social{
+    width: 30%;
+
+}
+  .contact-us .social h2{
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+     left: 60px;
+ 
+}
+footer .footer .contact-us .social ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer .footer .contact-us .social ul li{
+    margin-left: 20px;
+    color: #fff;
+}
+footer .footer .contact-us .social ul li i{
+    font-size: 30px;
+}
+
+footer .copy-right{
+width: 100%;
+height: 200px;
+margin-top: 50px;
+background-color: rgb(36, 36, 36);
+padding-top: 30px;
+}
+
+footer .copy-right .copy-right-description{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+footer .copy-right .copy-right-description p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 450px;
+}
+footer .copy-right .copy-right-description h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 450px;
+}
+ 
+
+ 

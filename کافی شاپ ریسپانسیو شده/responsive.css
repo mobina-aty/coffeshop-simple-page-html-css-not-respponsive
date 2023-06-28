@@ -1,0 +1,60 @@
+@media screen and ( max-width:992px ) {
+    .navigate1 {
+      display: none;
+    } 
+    .headerall{
+    background-size: cover;
+    margin: 0; 
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+}
+ 
+  .headerall .nav {
+    background-color: #00000079;
+    width: 100%;
+    height: 100px;
+    position: relative;}
+
+    .nav li{
+        display: none;
+
+    }
+    .nav img{
+        display: flex;
+        position: absolute;
+        left: 25px;
+        width: 100px;
+        height: 100px;
+      
+      
+      }
+      .headerall h1{
+        text-align: center;
+        justify-content: center;
+        max-width: 100%;
+        max-height: auto;
+        font-size: 20px;
+        color: #ffffff;
+         display: flex;
+         flex-wrap: wrap;
+       margin-right: 50%;
+        width: 50%;
+         
+    }
+    .startstory img{
+        width:50%;
+        height: auto; 
+        position: absolute;
+        
+    }
+    .startstory  p,h1{
+        text-align: center;
+        justify-content: center;
+        margin-right: 100px;
+         width: 50%;
+       
+         
+    }
+}
+
